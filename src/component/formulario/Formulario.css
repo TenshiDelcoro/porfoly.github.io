@@ -1,0 +1,74 @@
+.formulario-container {
+    width: 490px;
+    height: 680px;
+    background: rgba(114, 114, 114, 0.596);
+    position: fixed;
+    left: 1790px;
+    font-size: 10px;
+    border-radius: 60px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 85px;
+
+}
+.telefono, .nombre,.pais, .comentario, .email{
+    font-size: 25px;
+    line-height: 65px;
+    cursor: pointer;
+    margin-left: 32px;
+    display: inline;
+    
+
+}
+.final{
+    font-size: 21px;
+    line-height: 5px;
+    cursor: pointer;
+    margin-left: 32px;
+    display: inline;
+
+}
+
+.name, .seleccion, .emeil,.comentary, .ingrese-num, .boton{
+    width: 460px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 60px;
+    margin: 12px;
+}
+.ingrese-num{
+    width: 450px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 60px;
+    margin-top: 1px;
+}
+.encia {
+    font-size: 20px;
+    margin: 15px;
+}
+.inluir {
+    font-size: 40px;
+    margin: 25px;
+
+}
+@media only screen and (max-width: 960px) {
+    .formulario-container {
+      font-size: 70px;
+      text-align: center;
+    }
+    .telefono, .nombre,.pais, .comentario, .email {
+      text-align: center;
+      font-size: 22px;
+      width: 85%;
+    }
+  }
+  .name, .seleccion, .emeil,.comentary, .ingrese-num, .boton {
+    text-align: center;
+    font-size: 22px;
+    width: 85%;
+  }
+
+

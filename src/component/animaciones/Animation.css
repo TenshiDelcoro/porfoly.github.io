@@ -1,0 +1,22 @@
+.title-animacion {
+    background-color: black;
+    padding-left: 30px;
+
+
+}
+.title-animacion > h1 {
+    color: white;
+    font-size: 35px;
+    padding-left: 100px;
+    height: 10px;
+    line-height: 100px;
+}
+.video1 {
+   padding: 100px 1px 100px 950px;
+
+}
+.video1 > p {
+    color: white;
+    padding-left: 600px;
+    font-size: 30px;
+}
